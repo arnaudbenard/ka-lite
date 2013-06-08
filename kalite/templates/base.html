@@ -13,9 +13,14 @@
         {% endblock %}
         <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/khan-site.css"></link>
         <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/khan-lite.css"></link>
+        <link rel="stylesheet/less" type="text/css" href="{{ MEDIA_URL }}less/bootstrap.less"></link>
+        <!--[if IE]>
+        <link rel="stylesheet/css" type="text/css" href="{{ MEDIA_URL }}css/bootstrap.css"></link>
+        <![endif]-->
         {% block basecss %}{% endblock basecss %}
         {% block headcss %}{% endblock headcss %}
         <link rel="shortcut icon" href="{{ MEDIA_URL }}images/favicon.ico">
+        <script type="text/javascript" src="{{ MEDIA_URL }}js/less.js"></script>
         {% block jqueryjs %}
         <script type="text/javascript" src="{{ MEDIA_URL }}js/jquery-1.7.1.min.js"></script>
         <script type="text/javascript" src="{{ MEDIA_URL }}js/underscore-min.js"></script>

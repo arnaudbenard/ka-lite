@@ -408,3 +408,7 @@ li .progress-circle {
 #answer_area .answer-buttons input.simple-button, #answer_area input.simple-button.full-width {
     white-space: normal;
 }
+
+.basic-form label{
+    line-height:26px; /* TO CHANGE WHEN LESS REFACTORING IS DONE*/
+} 
